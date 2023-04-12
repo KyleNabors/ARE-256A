@@ -1,0 +1,12 @@
+print("TEST")
+
+#setwd("/Users/kylenabors/Dropbox/UC Davis/Fall 2022/ARE 256A/R Programmes/Problem Set 1")
+setwd("C:/Users/Kyle Nabors/Dropbox/UC Davis/Fall 2022/ARE 256A/R Programmes/Problem Set 1") # nolint
+library(tidyquant)
+library(tidyverse)
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+
+AAPL <- tq_get("AAPL", from = "2010-01-01", to = "2019-12-31")
